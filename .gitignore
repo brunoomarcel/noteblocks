@@ -1,0 +1,22 @@
+# Ignore .env file
+.env
+
+# Ignore other system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore node_modules
+node_modules/
+
+# Ignore Composer vendor directory
+vendor/
+
+# Ignore Docker files
+docker-compose.override.yml
+docker-compose.dev.yml
+.env.docker
